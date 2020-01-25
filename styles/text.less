@@ -1,0 +1,61 @@
+
+// Text
+// -------------------
+
+.text-smaller {
+  font-size: smaller;
+}
+
+.text-subtle    { color: @text-color-subtle; }
+.text-highlight { color: @text-color-highlight; }
+
+.text-info    { color: @text-color-info; }
+.text-success { color: @text-color-success; }
+.text-warning { color: @text-color-warning; }
+.text-error   { color: @text-color-error; }
+
+
+// Highlights ---------------
+
+.highlight         { .highlight-mixin(@background-color-highlight); }
+.highlight-info    { .highlight-mixin(@background-color-info); }
+.highlight-warning { .highlight-mixin(@background-color-warning); }
+.highlight-error   { .highlight-mixin(@background-color-error); }
+.highlight-success { .highlight-mixin(@background-color-success); }
+
+.highlight-mixin(@color) {
+  padding: 1px 4px;
+  color: @text-color-highlight;
+  border-radius: @component-border-radius;
+  background-color: @color;
+}
+
+
+// Background Message ---------------
+// Shown when no tabs are open.
+
+.background-message {
+  font-weight: bold;
+  color: @text-color-subtle;
+}
+.settings-view section .section-heading, .settings-view .section .section-heading{
+  color:hsl(212, 100%, 59%);
+    text-shadow: 2px 2px 3px black;
+}
+.list-tree{
+      text-shadow: 2px 2px 3px black;
+
+}
+a{
+  text-shadow: 2px 2px 3px black;
+
+}
+.package-description{
+    text-shadow: 2px 2px 3px black;
+}
+.package-version{
+  text-shadow: 2px 2px 3px black;
+}
+.avatar{
+    box-shadow: 2px 2px 3px black;
+}
