@@ -1,7 +1,7 @@
 {
-  "name": "BasicDark-ui",
+  "name": "CoolDark-ui",
   "theme": "ui",
-  "version": "1.1.0",
+  "version": "0.8.0",
   "description": "Basic dark ui theme.",
   "keywords": [
     "ui",
