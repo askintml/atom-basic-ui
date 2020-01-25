@@ -1,11 +1,14 @@
 {
   "name": "BasicDark-ui",
   "theme": "ui",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Basic dark ui theme.",
   "keywords": [
     "ui",
-    "theme","basic","dark","dark color"
+    "theme",
+    "basic",
+    "dark",
+    "dark color"
   ],
   "repository": "https://github.com/askintml/atom-basic-ui",
   "license": "MIT",
